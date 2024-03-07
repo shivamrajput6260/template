@@ -1,0 +1,71 @@
+
+.manu-section{
+    padding: 100px;
+}
+.main-manu{
+  position: relative;
+  width: min(1050px, 100%);
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+  margin: 0 auto;
+  
+}
+.manu-left{
+    text-align: center;
+  flex: 1 0 48%;
+  font-size: 18px;
+}
+h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+h2{
+    text-align: left;
+    font-weight: 100;
+    letter-spacing: 3px;
+   }
+.para-menu{
+     color: #716f6f;
+     margin: 0px;
+     text-align: left;
+     font-size: 15px;
+     margin-bottom: 55px;
+}
+.manu-right{
+   flex: 1 0 48%;
+ 
+   
+}
+.image-foods{
+    object-fit: contain;
+    width: 100%;
+}
+
+@media screen and (max-width: 1600px){
+.manu-right {
+    padding: 0px;
+}
+}
+
+@media screen and (max-width: 1100px){
+    .manu-section{
+  padding: 100px 20px;
+ }
+.manu-right {
+    padding: 0px;
+}
+}
+@media screen and (max-width: 992px){
+    .main-manu{
+  display: block;
+  
+ }
+ /* h2{
+    text-align: center;
+   }
+   .para-menu{
+    text-align: center;
+   } */
+
+}

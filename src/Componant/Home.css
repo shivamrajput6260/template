@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.main-section {
+  /* width: 100%; */
+  /* background-color: blue; */
+}
+.img-food {
+  color: rgb(101 92 92);
+  /* padding: 0px 8%; */
+  position: relative;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.contain-text {
+  position: absolute;
+  bottom: 20px;
+  left: 8%;
+  padding: 0px 2%;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 1600px) {
+    .img-food {
+     padding: 0px;
+    }
+    .contain-text {
+        left: 1%;
+      }
+  }
+
+@media screen and (max-width: 768px) {
+  .contain-text {
+    font-size: 30px;
+    bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .contain-text {
+      font-size: 20px;
+      bottom: 15px;
+    }
+  }
+
+@media screen and (max-width: 476px) {
+    .contain-text {
+      font-size: 16px;
+      bottom: 10px;
+    }
+  }
